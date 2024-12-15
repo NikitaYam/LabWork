@@ -1,0 +1,1 @@
+for i in range(0, int(input('Введите число: '))): print(i+1)
