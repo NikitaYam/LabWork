@@ -1,5 +1,3 @@
-from select import select
-
 
 class Book():
     def __init__(self):
