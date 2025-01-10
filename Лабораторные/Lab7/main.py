@@ -36,10 +36,6 @@ class Technician(Employee):
 class TechManager( Manager, Technician):
 
     def __init__(self, name: str, id: str, specialization: str, department:str):
-        '''self.name = name
-        self.id = id
-        self.spec = specialization
-        self.dep = department'''
         self.employee = []
         Technician.__init__(self, name = name, id = id, specialization=specialization)
         Manager.__init__(self, name=name, id = id, department= department)
